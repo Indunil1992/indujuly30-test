@@ -1,0 +1,116 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "e0337283-6e0a-426a-b18c-a6630fff14d6": {
+        "id": "e0337283-6e0a-426a-b18c-a6630fff14d6",
+        "parent": null,
+        "name": "indujuly30-test.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indujuly30-test.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "indujuly30Test"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1induj30qainduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "e0337283-6e0a-426a-b18c-a6630fff14d6"
+    ],
+    "currentFileId": "e0337283-6e0a-426a-b18c-a6630fff14d6",
+    "resources": {
+      "apigusEast1induj30qainduany": {
+        "name": "apigusEast1induj30qainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "induj30",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test1",
+          "mode": 0
+        }
+      },
+      "s3july300induu": {
+        "name": "s3july300induu",
+        "type": "S3",
+        "config": {
+          "mode": 0,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "july300induu"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.12.27",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.4",
+    "projectName": "indujuly30-test",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1596112072046
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indujuly30-test",
+      "url": "https://github.com/Indunil1992/indujuly30-test"
+    }
+  }
+}
